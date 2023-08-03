@@ -1,10 +1,26 @@
-p {
-  margin-bottom: 24px;
-}
-
 .wrapper {
   max-width: 480px;
   margin: 0 auto;
 }
 
+li {
+  text-align: start;
+}
 
+h2 {
+  padding: 42px 0 6px 0;
+
+  /* border-bottom: 3px solid black; */
+  border-radius: 4px 4px 0 0;
+  margin-bottom: 12px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+ul li {
+  list-style: disc;
+}
+
+ol li {
+  list-style: decimal;
+}
