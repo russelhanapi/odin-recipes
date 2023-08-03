@@ -3,3 +3,45 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  padding: 15px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 67.773px;
+  text-transform: uppercase;
+  margin-top: 45px;
+}
+
+h3 {
+  font-size: 25.888px;
+}
+
+img {
+  border-radius: 50%;
+  border: 3px solid black;
+  margin: 22px;
+  width: 360px;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  border: 3px solid black;
+  padding: 8px 14px;
+  border-radius: 7px;
+  width: 240px;
+}
+
