@@ -3,21 +3,23 @@
   margin: 0 auto;
 }
 
-li {
-  text-align: start;
-}
 
 h2 {
-  padding: 42px 0 6px 0;
-
-  /* border-bottom: 3px solid black; */
   border-radius: 4px 4px 0 0;
   margin-bottom: 12px;
   font-size: 14px;
   text-transform: uppercase;
 }
 
+h2:first-of-type {
+  padding-top: 21px;
+}
+
 h3 {
+  text-align: start;
+}
+
+li {
   text-align: start;
 }
 
@@ -28,5 +30,11 @@ ul li {
 
 ol li {
   list-style: decimal;
+}
 
+hr {
+  margin: 42px auto;
+  width: 300px;
+  border: none;
+  border-top: dotted 6px rgba(0, 0, 0, 0.185);
 }
